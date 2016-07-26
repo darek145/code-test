@@ -1,0 +1,60 @@
+.navbar{
+  background: rgba(171, 216, 219, 0.5);
+  min-height: 50px;
+}
+
+.navbar > div > div {
+  height: 50px;
+}
+
+a.navbar-brand > em{
+  font-family: 'Aladin';
+  font-size: 18pt;
+  color: white;
+}
+
+#mainmenu > ul > li a {
+  font-family: 'Aladin';
+  font-size: 14pt;
+  color: white;
+}
+
+#mainmenu > ul > li a:hover {
+  font-family: 'Aladin';
+  font-size: 14pt;
+  color: black;
+}
+
+.main-photo {
+  background: url('../images/slider.jpg')  center center no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.caption {
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.caption p {
+  font-family: 'Caveat', sans-serif;
+  color: white;
+  font-size: 2.1em;
+}
+
+.features {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.features > div > div > p{
+  font-family: 'Aladin';
+  font-size: 14pt;
+}
+
+.features .glyphicon {
+  font-size: 60px;
+}
